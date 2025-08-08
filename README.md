@@ -1,16 +1,42 @@
-# geliyo_app
+# 📦 Geliyo – Akıllı Kargo Sıralama ve Teslimat Takip Uygulaması
 
-A new Flutter project.
+**Geliyo**, kargo ve kurye çalışanlarının teslimat adreslerini en kısa ve en verimli rotaya göre sıralayan bir mobil uygulamadır.  
+Adreslerinizi manuel ya da toplu olarak ekleyin, uygulama sizin için en iyi teslimat sırasını oluştursun.  
+Zaman, yakıt ve enerji tasarrufu sağlayarak teslimat süreçlerinizi kolaylaştırır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 🗺️ **Adres Sıralama ve Rota Optimizasyonu**  
+  Adresleri mesafe ve rota uygunluğuna göre en hızlı teslimat sırasına dizer.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📍 **Canlı Konum Takibi**  
+  GPS ile bulunduğunuz konumu gösterir ve rotanızı anlık olarak takip eder.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📌 **Teslimat Durumu Yönetimi**  
+  Teslim edilen kargoları listeden işaretleyerek kalan teslimatları kolayca takip edin.
+
+- 🗺️ **Harita Entegrasyonu**  
+  Google Maps veya benzeri servislerle entegre çalışarak detaylı rota gösterir.
+
+---
+
+## 🧑‍💻 Kullanılan Teknolojiler
+
+- **Flutter** – Mobil uygulama geliştirme
+- **Dart**
+- **Google Maps API** – Harita ve rota bilgisi
+- **Geolocator / Location** – GPS konum alma
+- **Firebase Firestore** – Adres ve teslimat veritabanı
+- **Cloudinary** (opsiyonel) – Görsel depolama
+
+---
+
+## 🛠️ Kurulum
+
+```bash
+git clone https://github.com/kullanici-adi/geliyo.git
+cd geliyo
+flutter pub get
+flutter run
